@@ -1,6 +1,6 @@
 # UNIMASK-M: A Unified Masked Autoencoder with Patchified Skeletons for Motion Synthesis
 
-![UNIMASKM](static/figures/mf/mf_apersoniswaving.gif)
+
 Webpage for "A Unified Masked Autoencoder with Patchified Skeletons for Motion Synthesis"
 - Esteve Valls Mascaro
 - Hyemin Ahn
@@ -12,3 +12,4 @@ Ulsan National Institute of Science and Technology
 
 German Aerospace Center (DLR)
 
+![UNIMASKM](static/figures/mf/mf_apersoniswaving.gif)
