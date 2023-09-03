@@ -6,6 +6,8 @@ Webpage for "A Unified Masked Autoencoder with Patchified Skeletons for Motion S
 - Dongheui Lee
 
 Autonomous Systems, TU Wien, 1040 Wien
+
 Ulsan National Institute of Science and Technology
+
 German Aerospace Center (DLR)
 
