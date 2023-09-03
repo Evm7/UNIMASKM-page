@@ -144,11 +144,11 @@
 </section>
  -->
 
-<section class="section hero is-light">
+  <section class="hero is-small">
+<section class="hero teaser">
   <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
+    <div class="hero-body">
+      <div class="container">
         <div class="item">
           <p style="margin-bottom: 30px">
  
@@ -156,11 +156,20 @@
           <source src="static/figures/mib_welcome.mp4"
           type="video/mp4">
         </video>
-<!-- 
-        <iframe width="720" height="405" src=VIDEOLINK TO YOUTUBE IF THERE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
--->
         </p>
         </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+    
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
@@ -173,14 +182,12 @@
   </div>
 </section>
 
-
-
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
 
       <div class="column is-centered has-text-centered">
-        <img src="static/figures/architecture_defHD.jpg" alt="Architecture of our UNIMASK-M"/>
+        <img src="static/figures/overall_goal.jpg" alt="Motivation of our UNIMASK-M"/>
       </div>    
   </div>
 </div>
@@ -188,12 +195,14 @@
 </section>
 
 
+
+
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-<!--         <h2 class="title is-3">How does it work?</h2> -->
+         <h2 class="title is-3">How does it work?</h2> 
         <div class="content has-text-justified">
           <p>
 Let a human motion  X and its respective binary mask M. We first interpolate Xg to obtain Xfill and provide consistency to the input. Then, our Pose Decomposition module (PD) deconstructs each human pose pt into a sequence of patches p̂t, which we project and flatten to a sequence of tokens E. We add the embmix to E to inform the transformer-based encoder and decoder about the masked tokens and the spatio-temporal structure. Our ViT-based encoder and decoder reconstruct the patch-based sequence of tokens. Our Pose Aggregation module (PA) regroups the decoded tokens into poses using an MLP layer. Finally, each pose is projected back to the joint representations and summed to our reference motion Xref.
@@ -215,8 +224,20 @@ Let a human motion  X and its respective binary mask M. We first interpolate Xg 
     </div>
     <!--/ Abstract. -->
   </div>
-</section> 
+</section>
 
+    
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+
+      <div class="column is-centered has-text-centered">
+        <img src="static/figures/architecture_defHD.jpg" alt="Architecture of our UNIMASK-M"/>
+      </div>    
+  </div>
+</div>
+</div>
+</section>
 
   <section class="section hero is-light">
   <div class="container is-max-desktop">
