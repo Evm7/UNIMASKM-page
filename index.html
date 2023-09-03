@@ -674,7 +674,212 @@ inbetweening in the LaFAN1 dataset and demonstrate that our model outperforms th
     </section>
 
   
+  <section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Human Motion Completion</h2>
+          <p>
 
+            In this task, the aim is to predict future human motion based on past observations as well as conditions that the model needs to satisfy, such as raising the hand or extending your arm. This trick allows the user to have much more control over the synthesized motions. We compare motion forecasting with completion and observe how providing additional cues to the model helps to perform more controlled and accurate motions based on instructed conditions (shown in black in the qualitative results).
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section> 
+
+      <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container">
+          <div id="results-carousel" class="carousel results-carousel">
+            
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Posing”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_posing.gif" alt=" Posing" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Posing”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_posing.gif" alt=" Posing" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Taking Photo”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_taking_photo.gif" alt=" Taking Photo" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Taking Photo”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_taking_photo.gif" alt=" Taking Photo" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Directions”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_directions.gif" alt=" Directions" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Directions”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_directions.gif" alt=" Directions" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Phoning”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_phoning.gif" alt=" Phoning" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Phoning”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_phoning.gif" alt=" Phoning" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Posing1”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_posing1.gif" alt=" Posing1" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Posing1”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_posing1.gif" alt=" Posing1" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Sitting1”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_sitting1.gif" alt=" Sitting1" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Sitting1”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_sitting1.gif" alt=" Sitting1" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Posing2”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_posing2.gif" alt=" Posing2" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Posing2”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_posing2.gif" alt=" Posing2" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Walking Dog1”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_walking_dog1.gif" alt=" Walking Dog1" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Walking Dog1”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_walking_dog1.gif" alt=" Walking Dog1" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Sitting”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_sitting.gif" alt=" Sitting" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Sitting”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_sitting.gif" alt=" Sitting" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="carousel-item">
+            <div class="columns is-centered has-text-centered">
+                <div class="column">
+                    <p><b> “ Walking Dog”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mf/mf_walking_dog.gif" alt=" Walking Dog" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+                <div class="column">
+                    <p><b> “ Walking Dog”</b></p>
+                    <div class="image-container" style="height: 500px; overflow: hidden; justify-content: center; align-items: center;">
+                        <img src="static/figures/mc/mc_walking_dog.gif" alt=" Walking Dog" style="width: 750px; height: 750px; position: relative; top: -100px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          </div>
+        </div>
+      </div>
+    </section>
+  
 <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
