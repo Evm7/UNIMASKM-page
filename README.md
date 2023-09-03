@@ -1,6 +1,6 @@
 # UNIMASK-M: A Unified Masked Autoencoder with Patchified Skeletons for Motion Synthesis
 
-![Alt UNIMASK_M_Welcome](/static/figures/mf/mf_apersoniswaiving.gif)
+![UNIMASKM](static/figures/mf/mf_apersoniswaving.gif)
 Webpage for "A Unified Masked Autoencoder with Patchified Skeletons for Motion Synthesis"
 - Esteve Valls Mascaro
 - Hyemin Ahn
