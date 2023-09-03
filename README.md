@@ -11,5 +11,7 @@ Autonomous Systems, TU Wien, 1040 Wien
 Ulsan National Institute of Science and Technology
 
 German Aerospace Center (DLR)
-
-![UNIMASKM](static/figures/mf/mf_apersoniswaving.gif)
+                
+<p align="center">
+  <img src="static/figures/mf/mf_apersoniswaving.gif" alt="UNIMASKM"/>
+</p>
